@@ -17,3 +17,5 @@ GitHub Pages hosts this static site from the main branch root. No custom domain 
 ## Current release
 
 Includes Masari development screenshots (onboarding and job categories), mobile development expertise, Instagram contact and animated code emblems. The original portrait is unchanged. Source publication is authorized; live-site deployment remains pending design approval.
+
+Technology logos: Simple Icons (https://simpleicons.org), CC0. License retained in assets/tech/LICENSE.md. Logos identify technologies, without implying endorsement.
