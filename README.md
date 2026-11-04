@@ -25,3 +25,11 @@ Technology logos: Simple Icons (https://simpleicons.org), CC0. License retained 
 https://germansparrow097-tech.github.io/bridev-portfolio/
 
 GitHub Pages publishes the main branch root. Future pushes to main update the live website automatically.
+
+## Source layout
+
+- `index.html`: page structure
+- `style.css`: styles, responsive layouts and animation
+- `projects.js`: project copy, galleries and links
+- `app.js`: navigation, filters, dialogs and motion controls
+- `flow.js`: WebGL background
