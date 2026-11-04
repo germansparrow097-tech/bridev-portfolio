@@ -10,3 +10,14 @@
 @media(max-width:700px){.asterisk.code-emblem{width:44px;height:35px;right:0;top:-40px}.fire-star.code-emblem{width:44px;height:35px;right:-4px;top:-35px}.portrait-orbit.code-emblem{width:75px;height:60px}.instagram-link{margin-left:0;display:flex;width:max-content;margin:15px auto 0!important}.about-instagram{margin-left:20px}}
 @media(prefers-reduced-motion:reduce){.code-emblem *{animation:none!important}}
 .masari-cover{background:radial-gradient(ellipse at 50% 70%,#066bc055,transparent 80%),#061323}.masari-phones{position:absolute;display:flex;gap:22px;justify-content:center;top:68px;left:12%;right:12%;align-items:flex-start}.masari-phones img{width:44%;height:auto;border:4px solid #20354c;border-radius:19px;box-shadow:0 15px 35px #0008;transform:rotate(-7deg);transition:transform .4s}.masari-phones img+img{transform:rotate(7deg);margin-top:24px}.masari-cover:hover img{transform:rotate(0) translateY(-8px)}.project-gallery{display:flex;gap:16px;align-items:flex-start;margin:25px 0}.project-gallery:empty{display:none}.project-gallery a{width:50%}.project-gallery img{display:block;width:100%;height:auto;border-radius:12px;border:1px solid #ffffff20}
+/* A technology ribbon replaces decorative star separators. */
+.wordmark .brand-code{font:600 12px monospace;letter-spacing:-1px;margin-top:5px;margin-left:8px;color:#80caff}
+.ticker{padding:29px 0;background:linear-gradient(110deg,#051321e6,#05070ce6 45%,#101021d9);border-color:#80caff30;box-shadow:inset 0 1px #ffffff05,0 0 45px #2586c00a;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+.ticker>.ticker-track{display:flex;gap:0;animation:marquee 38s linear infinite;width:max-content}
+.ticker-group{display:flex;align-items:center;gap:65px;padding-right:65px;flex-shrink:0}
+.ticker-item{display:flex;align-items:center;gap:18px}
+.ticker-item>span{font:800 clamp(23px,2.8vw,39px)/1.1 var(--font);letter-spacing:-1.3px;color:#dce7f5;text-shadow:0 0 28px #8cbdff18}
+.ticker .tech-symbol{display:grid;place-items:center;min-width:48px;height:48px;padding:0 8px;border:1px solid currentColor;border-radius:11px;font:700 19px monospace;letter-spacing:-1px;background:#ffffff04;box-shadow:inset 0 0 20px #ffffff05;transform:rotate(-6deg)}
+.tech-symbol.yellow{color:#edcf72}.tech-symbol.blue{color:#78baff}.tech-symbol.cyan{color:#72ded9}.tech-symbol.purple{color:#b69bf7}
+#ignite span{display:inline-block;font:600 14px monospace;letter-spacing:-2px;color:#f8ae79;padding-left:4px;transition:transform .3s}#ignite:hover span{transform:translateX(4px)}
+@media(max-width:700px){.ticker{padding:22px 0}.ticker-group{gap:35px;padding-right:35px}.ticker-item{gap:12px}.ticker-item>span{font-size:24px;letter-spacing:-.7px}.ticker .tech-symbol{min-width:37px;height:37px;font-size:15px;border-radius:8px}.wordmark .brand-code{font-size:11px}}

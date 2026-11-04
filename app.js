@@ -48,4 +48,4 @@ $('.dialog-close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
 dialog.addEventListener('close',()=>{document.body.style.overflow='';projectTrigger?.focus({preventScroll:true});});
 let ignited=false;
-$('#ignite').addEventListener('click',()=>{ignited=!ignited;$('#ignite').setAttribute('aria-pressed',String(ignited));$('#ignite').innerHTML=ignited?'RETURN TO BLUE <span>✳</span>':'IGNITE THE BACKGROUND <span>✳</span>';window.dispatchEvent(new CustomEvent('portfolio-ignite',{detail:{ignited}}));});
+$('#ignite').addEventListener('click',()=>{ignited=!ignited;$('#ignite').setAttribute('aria-pressed',String(ignited));$('#ignite').innerHTML=ignited?'RETURN TO BLUE <span aria-hidden="true">&lt;/&gt;</span>':'IGNITE THE BACKGROUND <span aria-hidden="true">&lt;/&gt;</span>';window.dispatchEvent(new CustomEvent('portfolio-ignite',{detail:{ignited}}));});
